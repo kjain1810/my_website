@@ -1,0 +1,148 @@
+body{
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: aliceblue;
+    background-color: black;
+}
+
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#navbar {
+  z-index: 1;
+  overflow: hidden;
+  background-color: #333;
+  width: 100vw;
+}
+
+#navbar a {
+  width: 33.333%;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1vh 1vw;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+#navbar a:hover {
+  background-color: rgb(53, 46, 46);
+}
+
+#navbar a.active {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content_one_page{
+  margin-top: 10vh;
+  height: 90vh;
+}
+
+
+.img_lol {
+  border-radius: 50%;
+  height: 50vh;
+  width: 50vh;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_container {
+    align-content: center;
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(53, 46, 46);
+}
+
+.img_container:hover .overlay{
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 2.3vh;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: 3vh;
+  right: 4vh;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(53, 46, 46);
+  color: white;
+  cursor: pointer;
+  padding: 2vh;
+  border-radius: 1vh;
+  opacity: .5;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.lmaolmaio {
+  height: 20vh;
+  width: auto;
+}
+
+.rand0 {
+  font-size: 5vh;
+}
+
+.contact_img {
+  height: 10vh;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2vh;
+  border-color: gray;
+  background-color: royalblue;
+  border-radius: 1vh;
+}
+
+.form_text{
+  color: black; 
+}

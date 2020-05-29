@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Kunal Jain | IIIT - Hyderabad
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- <script src="../js/script1.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+
+</head>
+
+<body>
+    <button onclick="gotop()" id="myBtn">TOP</button>
+    <div id="navbar">
+        <!-- <h1>Kunal Jain</h1> -->
+        <a href="contact.html">Contact Me</a>
+        <a class="active" href="javascript:void(0)">My Works</a>
+        <a href="../index.html">Home</a>
+    </div>
+    <div class="content_one_page">
+        I HAVENT REALLY WORKED ON ANYTHING SO HERE IS MY SKILL TABLE LOL:
+        <br>
+        <form action="" class="form_text">
+            <input placeholder="Your Name" type="text" id="name">
+            <select name="" id="tech">
+                <option value="">C++</option>
+                <option value="">PYTHON</option>
+                <option value="">HTML/CSS/JAVASCRIPT</option>
+                <option value="">PUNS</option>
+            </select>
+            <select name="" id="level">
+                <option value="">Pr0</option>
+                <option value="">Normie</option>
+                <option value="">N00B</option>
+            </select>
+            <input placeholder="Comments" type="text" id="comment">
+            <button onclick="submitform()">Submit</button>
+        </form>
+        <br>
+        <table align="center">
+            <thead>
+                <th>Name</th>
+                <th>Tech</th>
+                <th>Level</th>
+                <th>Comments</th>
+            </thead>
+            <tbody id="table_for_skill"></tbody>
+        </table>
+    </div>
+</body>
+<script src="../js/skill_table.js"></script>
+<script src="../js/script_navbar.js"></script>
+
+</html>
